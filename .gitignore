@@ -1,0 +1,10 @@
+# Ignore build artifacts and local editor files
+*.exe
+*.obj
+*.out
+*.o
+*.pdb
+*.dll
+
+# VS Code workspace settings (leave project-level settings tracked if needed)
+.vscode/
