@@ -29,6 +29,5 @@ int main() {
     }
     
     cout << "Maximum possible sum: " << max_sum << endl;
-    delete[] A;
     return 0;
 }
