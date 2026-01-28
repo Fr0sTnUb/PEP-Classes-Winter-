@@ -19,3 +19,18 @@ int main(){
         cout << arr[i] << " ";
     }
 }
+
+//Using while loop 
+
+// int i = 0;
+// int n = arr.size();
+// while(i < n){
+//     int left = i;
+//     int right = min(i + k - 1, n - 1);
+//     while(left < right){
+//         swap(arr[left], arr[right]);
+//         left++;
+//         right--;
+//     }
+//     i += k;
+// }
