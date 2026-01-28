@@ -34,6 +34,7 @@ int main() {
 
         if(hashTable.find(temp) != hashTable.end()){
             cout << a[i] << "+" << temp << " True" << endl;
+            return true;
         }
         hashTable.insert(a[i]);
     }
