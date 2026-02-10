@@ -5,8 +5,8 @@ class Solution{
 
     double findMedianSortedArrays(const vector<int>& A, const vector<int>& B) {
     const vector<int> *a = &A, *b = &B;
-    if (a.size() > b.size()) swap(a, b);     
-    int m = a.size(), n = b.size();
+    if (a->size() > b->size()) swap(a, b);     
+    int m = a->size(), n = b->size();
     int totalLeft = (m + n + 1) / 2;
 
     int lo = 0, hi = m;
