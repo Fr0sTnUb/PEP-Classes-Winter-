@@ -19,3 +19,25 @@ class solution{
         s.push(temp);
     }
 };
+
+//Time Complexity: O(n)
+//Space Complexity: O(n) (recursive stack space)
+
+class Solution{
+    public:
+    void deleteMid(stack<int> &s){
+        int n = s.size();
+        if(s.empty()) return;
+        int mid = n/2;
+        stack<int> temp;
+        for(int i=0; i<mid; i++){
+            temp.push(s.top());
+            s.pop();
+        }
+        s.pop();
+        while(!temp.empty()){
+            s.push(temp.top());
+            temp.pop();
+        }
+    }
+};
