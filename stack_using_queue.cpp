@@ -40,7 +40,6 @@ class myStack{
 class myStack{
     public:
     myStack(){
-
     }
     void push(int x){
         q.push(x);
