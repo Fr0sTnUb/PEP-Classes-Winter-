@@ -8,5 +8,4 @@ class Solution{
         rev(q);
         q.push(temp);
     }
-    
 };
